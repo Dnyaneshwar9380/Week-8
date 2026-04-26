@@ -1,0 +1,6 @@
+import joblib
+
+data = joblib.load("final_model.pkl")
+
+model = data["model"]
+columns = data["columns"]
